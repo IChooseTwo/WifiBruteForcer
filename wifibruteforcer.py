@@ -29,7 +29,7 @@ assert iface.status() in\
     [const.IFACE_DISCONNECTED, const.IFACE_INACTIVE]
 
 profile = pywifi.Profile()
-profile.ssid = 'Snoopy' #Name of wifi
+profile.ssid = 'Wifi Name' #Name of wifi #Yes I left my dog name in there by mistake
 profile.auth = const.AUTH_ALG_OPEN
 profile.akm.append(const.AKM_TYPE_WPA2PSK)
 profile.cipher = const.CIPHER_TYPE_CCMP
